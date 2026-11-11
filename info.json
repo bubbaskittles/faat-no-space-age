@@ -1,9 +1,9 @@
 {
   "name": "fish-addicts-anonymous-timer-nodlc",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "title": "Fish Addicts Anonymous Timer (No DLC)",
   "author": "Orbital917 (original); no-DLC port",
-  "factorio_version": "2.0",
+  "factorio_version": "2.1",
   "description": "Base-game port of Fish Addicts Anonymous Timer by Orbital917, with the Space Age dependency removed. Automatically saves and then closes the game after 1hr (configurable) of play time. Optional: carry time over between loads, and lock the save until you unlock it.",
-  "dependencies": ["base >= 2.0", "! fish-addicts-anonymous-timer"]
+  "dependencies": ["base >= 2.1", "! fish-addicts-anonymous-timer"]
 }
