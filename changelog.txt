@@ -1,0 +1,21 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 2026-11-11
+  Features:
+    - Setting "Warning before closing (minutes)" (default 5, 0 = off): choose when the chat warning and alert sound play.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2026-11-11
+  Features:
+    - Setting "Carry time over between loads" (on by default): play time is stored in the save, so reloading continues the countdown.
+    - Setting "Lock the save when time runs out" (off by default): a locked save closes again 30 seconds after loading until /faat-unlock is used.
+    - New command /faat-unlock.
+  Changes:
+    - Timer state is now kept in the save instead of in a script variable.
+    - The timer no longer restarts when a new player joins.
+    - The game closes with a clearer error message.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2026-11-11
+  Changes:
+    - Fork of Fish Addicts Anonymous Timer 1.0.1 by Orbital917 with the Space Age dependency removed.
